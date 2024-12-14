@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/weatherStyle.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="main-nav d-flex">
+        <div class="d-flex p-5">
+            <div>
+                <img src="./images/weather.png" alt="weather-image">
+
+            </div>
+            <div class="logo text-white">
+                <h3><a href="">weather</a></h3>
+                <span><a href="">tagline goes here</a></span>
+            </div>
+        </div>
+        <div>
+            <ul class="menu d-flex justify-content-end me-5">
+                <li class="menu-item current me-5"><a href='/'>Home</a></li>
+                <li class="menu-item me-5"><a href="#">News</a></li>
+                <li class="menu-item me-5"><a href="#">cameras</a></li>
+                <li class="menu-item me-5"><a href="#">Photos</a></li>
+                <li class="menu-item me-5"><a href='/contact'>Contact</a></li>
+            </ul> <!-- .menu -->
+        </div>
+    </div>
+    <div class="container-fluid bachG">
+
+        <div class="backG-image">
+            <div class="input-btn d-flex p-5">
+                <input id="searchInput" type="search" class="form-control text-black" placeholder="Find your Location">
+                <button class="btn btn-primary">find</button>
+            </div>
+
+            <div class="pt-3">
+                <table id="tableData"style="width:80% ;border: 30px;">
+
+
+                </table>
+            </div>
+        </div>
+        <div class="hh">
+            hhh
+        </div>
+
+    </div>
+    <footer class="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <form class="d-flex mt-5">
+                        <input type="text" class="me-2 form-control"placeholder="Enter your email to subscribe...">
+                        <input type="submit" class=" pe-3 btn btn-primary"value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <div class="home-icon  mt-5">
+                        <a class="i-home"href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="i-home"href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="i-home"href="#"><i class="fa-brands fa-google-plus"></i></a>
+                        <a class="i-home"href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-secondary p-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer> <!-- .site-footer -->
+    <script src="https://kit.fontawesome.com/b00d0c58b8.js" crossorigin="anonymous"></script>
+
+    <script SRC="./js/main.js"></script>
+</body>
+
+</html>
